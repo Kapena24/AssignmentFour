@@ -36,7 +36,7 @@ var number1 = 10
 var number2 = 15
 
 // Higher or lower op </>
-if num1 > num2 {
+if number1 > number2 {
 
 // Condition is true
     print("This is true the Variable one is true ")

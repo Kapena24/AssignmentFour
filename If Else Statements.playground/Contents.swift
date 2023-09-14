@@ -32,8 +32,8 @@ else
 // Set 1
 
 // two integer variables
-var num1 = 10
-var num2 = 15
+var number1 = 10
+var number2 = 15
 
 // Higher or lower op </>
 if num1 > num2 {

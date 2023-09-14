@@ -47,16 +47,42 @@ if num1 > num2 {
 
 // Set 2
 
-// Define two string variables
-var string1 = "Hello"
-var string2 = "Hello"
+// Create two string variables
+var string1 = "How are you?"
+var string2 = "How are you?"
 
-// string1 is equal to string2
+// Check if the two strings are equal
+
 if string1 == string2 {
-
-// Condition is true
-    print("How is your day going?")
-} else {
-// Condition is false
-    print("That's rude, not saying hello back.")
+    
+// If they are equal, concatenate and print them
+   
+var concatenatedString = string1 + " Im doing fine, " + string2
+    print(concatenatedString)
 }
+else {
+//Print if false
+    print("Rude.")
+}
+// Set 3 of part 5
+
+// Create two boolean variables
+var rainingInNanakuli = true
+var hotInNanakuli = false
+
+// Create a conditional statement that evaluates to false
+var nanakuliWeatherGood = rainingInNanakuli == hotInNanakuli
+
+// Use an if/else statement to print different strings based on the condition
+
+if nanakuliWeatherGood {
+    print("It gonna be humid in a few minutes.")
+}
+else {
+    print("Enjoy the cool air.")
+}
+
+
+
+
+
